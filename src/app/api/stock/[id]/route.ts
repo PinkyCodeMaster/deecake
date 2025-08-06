@@ -3,7 +3,6 @@ import { stock } from "@/db/schema/stock";
 import { eq } from "drizzle-orm";
 import { db } from "@/db";
 
-// GET handler
 export async function GET(req: NextRequest, context: { params: Promise<{ id: string }> }) {
     try {
         const { id } = await context.params;
@@ -15,7 +14,6 @@ export async function GET(req: NextRequest, context: { params: Promise<{ id: str
     }
 }
 
-// PATCH handler
 export async function PATCH(req: NextRequest, context: { params: Promise<{ id: string }> }) {
     try {
         const { id } = await context.params;
@@ -38,7 +36,6 @@ export async function PATCH(req: NextRequest, context: { params: Promise<{ id: s
     }
 }
 
-// DELETE handler
 export async function DELETE(req: NextRequest, context: { params: Promise<{ id: string }> }) {
     try {
         const { id } = await context.params;

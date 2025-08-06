@@ -26,18 +26,9 @@ const data = {
             url: "/admin/orders",
             icon: Send,
             items: [
-                {
-                    title: "All Orders",
-                    url: "/admin/orders",
-                },
-                {
-                    title: "Pending",
-                    url: "/admin/orders?status=pending",
-                },
-                {
-                    title: "Completed",
-                    url: "/admin/orders?status=completed",
-                },
+                { title: "All Orders", url: "/admin/orders" },
+                { title: "Pending", url: "/admin/orders?status=pending" },
+                { title: "Completed", url: "/admin/orders?status=completed" },
             ],
         },
         {
@@ -45,18 +36,9 @@ const data = {
             url: "/admin/products",
             icon: PieChart,
             items: [
-                {
-                    title: "All Products",
-                    url: "/admin/products",
-                },
-                {
-                    title: "Add Product",
-                    url: "/admin/products/new",
-                },
-                {
-                    title: "Categories",
-                    url: "/admin/categories",
-                },
+                { title: "All Products", url: "/admin/products" },
+                { title: "Add Product", url: "/admin/products/new" },
+                { title: "Categories", url: "/admin/categories" },
             ],
         },
         {
@@ -64,18 +46,9 @@ const data = {
             url: "/admin/ingredients",
             icon: Package,
             items: [
-                {
-                    title: "Ingredients",
-                    url: "/admin/ingredients",
-                },
-                {
-                    title: "Suppliers",
-                    url: "/admin/suppliers",
-                },
-                {
-                    title: "Stock Levels",
-                    url: "/admin/stock",
-                },
+                { title: "Ingredients", url: "/admin/ingredients" },
+                { title: "Suppliers", url: "/admin/suppliers" },
+                { title: "Stock Levels", url: "/admin/stock" },
             ],
         },
         {
@@ -83,18 +56,9 @@ const data = {
             url: "/admin/recipes",
             icon: BookOpen,
             items: [
-                {
-                    title: "All Recipes",
-                    url: "/admin/recipes",
-                },
-                {
-                    title: "Ingredients",
-                    url: "/admin/ingredients",
-                },
-                {
-                    title: "Suppliers",
-                    url: "/admin/suppliers",
-                },
+                { title: "All Recipes", url: "/admin/recipes" },
+                { title: "Ingredients", url: "/admin/ingredients" },
+                { title: "Suppliers", url: "/admin/suppliers" },
             ],
         },
         {
@@ -102,14 +66,8 @@ const data = {
             url: "/admin/customers",
             icon: Map,
             items: [
-                {
-                    title: "Customer List",
-                    url: "/admin/customers",
-                },
-                {
-                    title: "Feedback",
-                    url: "/admin/feedback",
-                },
+                { title: "Customer List", url: "/admin/customers" },
+                { title: "Feedback", url: "/admin/feedback" },
             ],
         },
         {
@@ -117,60 +75,22 @@ const data = {
             url: "/admin/settings",
             icon: Settings2,
             items: [
-                {
-                    title: "Shop Settings",
-                    url: "/admin/settings",
-                },
-                {
-                    title: "Team",
-                    url: "/admin/team",
-                },
-                {
-                    title: "Billing",
-                    url: "/admin/billing",
-                },
+                { title: "Shop Settings", url: "/admin/settings" },
+                { title: "Team", url: "/admin/team" },
+                { title: "Billing", url: "/admin/billing" },
             ],
-        }
-
+        },
     ],
     navSecondary: [
-        {
-            title: "New Ingredient",
-            url: "/admin/ingredients/new",
-            icon: PlusCircle,
-        },
-        {
-            title: "Low Stock Alerts",
-            url: "/admin/stock/alerts",
-            icon: AlertTriangle,
-        },
-        {
-            title: "Help",
-            url: "/admin/help",
-            icon: LifeBuoy,
-        },
-        {
-            title: "Contact Us",
-            url: "/admin/contact",
-            icon: Send,
-        },
+        { title: "New Ingredient", url: "/admin/ingredients/new", icon: PlusCircle },
+        { title: "Low Stock Alerts", url: "/admin/stock/alerts", icon: AlertTriangle },
+        { title: "Help", url: "/admin/help", icon: LifeBuoy },
+        { title: "Contact Us", url: "/admin/contact", icon: Send },
     ],
     projects: [
-        {
-            name: "Website",
-            url: "/admin/website",
-            icon: Frame,
-        },
-        {
-            name: "Instagram Shop",
-            url: "/admin/social/instagram",
-            icon: Bot,
-        },
-        {
-            name: "Local Events",
-            url: "/admin/events",
-            icon: Command,
-        },
+        { name: "Website", url: "/admin/website", icon: Frame },
+        { name: "Instagram Shop", url: "/admin/social/instagram", icon: Bot },
+        { name: "Local Events", url: "/admin/events", icon: Command },
     ],
 }
 

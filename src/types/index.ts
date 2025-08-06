@@ -14,8 +14,8 @@ export interface Ingredient {
     name: string;
     supplierId?: string | null;   // optional because supplier can be null
     unit: Unit;
-    pricePerUnit: string;         // numeric as string from DB
-    stockQuantity: string;        // numeric as string from DB
+    pricePerUnit: number;         // numeric as string from DB
+    stockQuantity: number;        // numeric as string from DB
     createdAt: string;
     updatedAt: string;
 }
